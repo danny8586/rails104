@@ -14,6 +14,8 @@ class User < ApplicationRecord
       participated_groups.include?(group)
     end
 
+
+
     def join!(group)
     participated_groups << group
   end
